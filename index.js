@@ -1,7 +1,7 @@
 module.exports = init
 
 var Emitter = require('events').EventEmitter
-  , findWhere = require('lodash.findWhere')
+  , findWhere = require('lodash.findwhere')
   , Primus = require('primus')
   , PrimusEmitter = require('primus-emitter')
   , Socket = Primus.createSocket({ transformer: 'websockets', parser: 'JSON', plugin: { emitter: PrimusEmitter } })
