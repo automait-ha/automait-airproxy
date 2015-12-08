@@ -1,0 +1,10 @@
+{
+  "name": "automait-airproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.findwhere": "^3.1.0",
+    "ws": "^0.8.1"
+  }
+}
