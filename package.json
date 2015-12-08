@@ -5,6 +5,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash.findwhere": "^3.1.0",
+    "primus": "^4.0.4",
+    "primus-emitter": "^3.1.1",
     "ws": "^0.8.1"
   }
 }
